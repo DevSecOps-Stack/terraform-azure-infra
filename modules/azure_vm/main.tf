@@ -67,4 +67,12 @@ resource "azurerm_linux_virtual_machine" "vm" {
     caching              = "ReadWrite"
     storage_account_type = var.os_disk_type
   }
+
+  # Add this block to specify a Marketplace image (Ubuntu 20.04 in this example)
+  source_image_reference {
+    publisher = "Canonical"
+    offer     = "UbuntuServer"
+    sku       = "20_04-lts"
+    version   = "latest"
+  }
 }
