@@ -43,7 +43,6 @@ variable "os_disk_type" {
   default     = "Standard_LRS"
   description = "OS disk type for the VM."
 }
-=======
 variable "environment_name" {
   type        = string
   description = "Name of the environment (dev or prod)."
