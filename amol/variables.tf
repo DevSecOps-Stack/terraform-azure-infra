@@ -3,11 +3,6 @@ variable "environment_name" {
   description = "Environment name (e.g., dev, prod)."
 }
 
-variable "location" {
-  type        = string
-  description = "Azure region."
-}
-
 variable "aks_node_count" {
   type        = number
   default     = 1
