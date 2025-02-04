@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // sms/main.tf
 
 terraform {
@@ -39,3 +40,25 @@ module "sms_vm" {
   ssh_public_key = var.ssh_public_key
   os_disk_type   = var.os_disk_type
 }
+=======
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.0"
+    }
+  }
+  backend "remote" {
+    // We'll configure this in Terraform Cloud
+  }
+}
+
+provider "azurerm" {
+  features {}
+}
+
+resource "azurerm_resource_group" "sms_rg" {
+  name     = "${var.environment_name}-sms-rg"
+  location = var.location
+}
+>>>>>>> refs/remotes/origin/main

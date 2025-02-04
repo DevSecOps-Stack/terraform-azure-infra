@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 environment_name = "prod"
 location         = "eastus2"
 
@@ -11,3 +12,7 @@ ssh_public_key = "ssh-rsa AAAA...prodKey" // Prod public key
 os_disk_type   = "Premium_LRS" // Use premium disk for production
 
 vnet_name = "sms-prod-vnet"
+=======
+environment_name = "prod"
+location         = "eastus2"
+>>>>>>> refs/remotes/origin/main

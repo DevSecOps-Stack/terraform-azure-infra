@@ -39,4 +39,3 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     network_plugin = "azure"
   }
 }
-s

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // sms/variables.tf
 
 variable "environment_name" {
@@ -57,3 +58,16 @@ variable "vnet_name" {
   default     = "smsVNet"
   description = "Name of the virtual network for the VM module."
 }
+=======
+variable "environment_name" {
+  type        = string
+  description = "Name of the environment (dev or prod)."
+}
+
+variable "location" {
+  type        = string
+  description = "Azure region where resources will be created."
+}
+
+// Add more variables as needed for your SMS project.
+>>>>>>> refs/remotes/origin/main

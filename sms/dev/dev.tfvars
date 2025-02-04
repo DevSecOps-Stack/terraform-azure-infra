@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 environment_name = "dev"
 location         = "eastus"
 
@@ -11,3 +12,7 @@ ssh_public_key = "ssh-rsa AAAA...devKey" // Dev public key
 os_disk_type   = "Standard_LRS"         // Cheaper disk for dev
 
 vnet_name = "sms-dev-vnet"
+=======
+environment_name = "dev"
+location         = "eastus"
+>>>>>>> refs/remotes/origin/main

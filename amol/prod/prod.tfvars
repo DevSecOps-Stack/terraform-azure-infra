@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 environment_name = "prod"
 location         = "eastus2"
 
@@ -9,3 +10,7 @@ ssh_public_key   = "ssh-rsa AAAA...prodKey"
 
 # Possibly different disk type for production
 os_disk_type     = "Premium_LRS"
+=======
+environment_name = "prod"
+location         = "eastus2"
+>>>>>>> refs/remotes/origin/main
